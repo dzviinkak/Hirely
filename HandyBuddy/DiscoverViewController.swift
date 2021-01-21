@@ -8,20 +8,16 @@
 import UIKit
 
 class DiscoverViewController: UIViewController {
-
-    @IBOutlet var onPlumbing: UITapGestureRecognizer!
     
-    @IBOutlet var onPainting: UITapGestureRecognizer!
-    @IBOutlet var onYardWork: UITapGestureRecognizer!
-    @IBOutlet var onMoving: UITapGestureRecognizer!
-    @IBOutlet var onHomeRepair: UITapGestureRecognizer!
-    @IBOutlet var onElectical: UITapGestureRecognizer!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
     
+   
 
     /*
     // MARK: - Navigation

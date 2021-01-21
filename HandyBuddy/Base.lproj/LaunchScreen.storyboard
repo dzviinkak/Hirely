@@ -16,14 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fullLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qlY-4G-Fpv">
-                                <rect key="frame" x="10" y="110" width="394" height="598"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fullLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qlY-4G-Fpv">
+                                <rect key="frame" x="10" y="154" width="394" height="598"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="598" id="ThR-gP-1o1"/>
+                                    <constraint firstAttribute="width" constant="394" id="gXL-Rz-IYe"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="lightGreen"/>
                         <color key="tintColor" name="lightGreen"/>
+                        <constraints>
+                            <constraint firstItem="qlY-4G-Fpv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Ify-ZM-Dlf"/>
+                            <constraint firstItem="qlY-4G-Fpv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XA1-o8-qg6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
